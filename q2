@@ -1,0 +1,8 @@
+def count(sentence):
+    word=sentence.count()
+    return word
+input_string="TCS is the largest IT service company in India, 
+headquartered in Mumbai, and also the largest employee base.
+"
+result=count(input_string)
+print(result)
